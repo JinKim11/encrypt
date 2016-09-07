@@ -23,7 +23,7 @@ def encrypt_message():
 		print encrypt[message[i]]
 
 def decrypt_message():
-	message = "46 1 12 9 1 53 18 21 12 5 19"  #int(raw_input("Decrypt a message."))\
+	message = "46 1 12 9 1 53 18 21 12 5 19"  #raw_input("Decrypt a message.")
 
 	for i in message.split(" "):
 		print decrypt[int(i)]
